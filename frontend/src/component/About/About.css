@@ -1,0 +1,44 @@
+.AboutSection {
+  border-radius: 100px 100px 0px 0px;
+  padding: 50px 50px 200px 50px;
+  background-color: #940406;
+  color: white;
+  position: absolute;
+  top: 1200px;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.About {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.About p {
+  font-size: 18px;
+}
+
+.cartoon {
+  height: 400px;
+  width: 500px;
+}
+
+@media screen and (max-width: 980px) {
+  .AboutSection {
+    top: 1400px;
+    padding: 20px 20px 250px 20px;
+  }
+  .About {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+  }
+  .cartoon {
+    height: 250px;
+    width: 320px;
+  }
+  .About p {
+    font-size: 15px;
+  }
+}

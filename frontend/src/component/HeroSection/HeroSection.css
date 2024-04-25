@@ -1,0 +1,61 @@
+.heroSectionContainer {
+  background-color: #e6170b;
+  background-image: url(../../assest/noodle5.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 10px 50px;
+  height: 500px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.heroSectionContainer span {
+  font-size: 30px;
+}
+
+.heroSectionContainer h1 {
+  color: #f8de00;
+  font-size: 80px;
+  margin-left: 500px;
+}
+
+#getstartedbtn {
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #f8de00;
+  color: red;
+  margin-left: 500px;
+  width: 200px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#getstartedbtn:hover {
+  background-color: red;
+  color: #f8de00;
+}
+
+@media screen and (max-width: 980px) {
+  .heroSectionContainer {
+    padding: 10px 10px;
+    height: auto;
+    background-position: top;
+  }
+  .heroSectionContainer h1 {
+    color: #f8de00;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 300px;
+  }
+  .heroSectionContainer span {
+    font-size: 20px;
+  }
+  #getstartedbtn {
+    margin-left: 10px;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+}
